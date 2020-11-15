@@ -12,7 +12,7 @@
 
 <script>
 import MessageRow from 'components/messages/MessageRow.vue'
-import MessageForm from 'components/messages/MessageForm.vue'
+import MessageForm from 'static/js/components/messages/MessageForm'
 export default {
   props: ['messages'],
   components: {
