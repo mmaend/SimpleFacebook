@@ -9,11 +9,13 @@
     "start:dev": "webpack-dev-server"
   },
   "dependencies": {
+    "@babel/polyfill": "^7.2.5",
     "@stomp/stompjs": "^6.0.0",
     "sockjs-client": "^1.5.0",
     "vue": "^2.5.17",
     "vue-resource": "^1.5.1",
-    "vuetify": "^2.3.17"
+    "vuetify": "^2.3.17",
+    "vuex": "^3.5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
