@@ -2,13 +2,10 @@ package mmaend.Simplefb.dto;
 
 import com.fasterxml.jackson.annotation.JsonRawValue;
 import com.fasterxml.jackson.annotation.JsonView;
-
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import mmaend.Simplefb.domain.Views;
 
 @Data
-@AllArgsConstructor
 @JsonView(Views.Id.class)
 public class WsEventDto {
     private ObjectType objectType;
