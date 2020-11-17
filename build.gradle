@@ -23,6 +23,7 @@ dependencies {
 	compile("org.springframework.boot:spring-boot-starter-websocket")
 	compile('org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.0.0.RELEASE')
     compile('org.postgresql:postgresql')
+	compile 'io.sentry:sentry-spring:1.7.16'
     compile 'org.jsoup:jsoup:1.11.3'
     compile('org.projectlombok:lombok')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
