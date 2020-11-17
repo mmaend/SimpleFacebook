@@ -10,11 +10,11 @@ import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.stereotype.Component;
 
 import java.util.function.BiConsumer;
-
 @Component
 public class WsSender {
     private final SimpMessagingTemplate template;
     private final ObjectMapper mapper;
+
 
     public WsSender(SimpMessagingTemplate template, ObjectMapper mapper) {
         this.template = template;
